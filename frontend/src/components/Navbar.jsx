@@ -1,4 +1,5 @@
 import React from "react";
+import { SiNamecheap } from "react-icons/si";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -8,7 +9,7 @@ function Navbar() {
       className="w-full flex justify-between items-center px-5 md:px-20 text-white z-[50] bg-transparent py-5"
     >
       <h1 className="text-5xl items-center font-SpaceGrotesk text-transparent bg-clip-text text-zinc-200 font-semibold">
-        Nexify
+      <SiNamecheap />
       </h1>
      
 

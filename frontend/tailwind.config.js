@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        '4xl': '2rem', // Adjust the value as needed
+      },
       fontFamily:{   
         'Questrial': ['Questrial', 'sans-serif'],   
         'Teko': ['Teko', 'sans-serif'],   
