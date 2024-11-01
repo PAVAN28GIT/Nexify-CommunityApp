@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{   
+        'Questrial': ['Questrial', 'sans-serif'],   
+        'Teko': ['Teko', 'sans-serif'],   
+        'SpaceGrotesk': ['Space Grotesk', 'sans-serif'],   
+        'SourceCodePro': ['Source Code Pro', 'sans-serif'],   
+      }
+    },
   },
   plugins: [],
 }

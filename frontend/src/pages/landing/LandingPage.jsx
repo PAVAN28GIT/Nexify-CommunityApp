@@ -1,14 +1,14 @@
 import React from 'react'
 import Hero from './Hero'
 import Navbar from '../../components/Navbar'
-import Features from './Features'
+import Footer from '../../components/Footer'
 
 function LandingPage() {
   return (
-    <div>
+    <div className="h-screen bg-[url('/images/hero-background.jpg')] bg-cover bg-start" >
       <Navbar />
       <Hero /> 
-      <Features />
+      <Footer />
     </div>
   )
 }
