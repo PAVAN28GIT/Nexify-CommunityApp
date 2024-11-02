@@ -12,7 +12,7 @@ function HomePage() {
         <div className="fixed left-0 top-0">
           <LeftSideBar />
         </div>
-        <div className="flex-grow ml-20 mr-96">
+        <div className="flex-grow ml-[22rem] mr-[22rem]">
           <Outlet />
         </div>
 

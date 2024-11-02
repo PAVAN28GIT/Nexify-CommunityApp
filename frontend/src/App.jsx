@@ -30,7 +30,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="communities" element={<CommunityPage />} />
           <Route path="community/:communityId" element={<Community />} />
-          <Route path="profile/:profileId" element={<ProfilePage />} />
+          <Route path=":profileId" element={<ProfilePage />} />
         </Route>
         <Route path='*' element={<NoPage />} />
       </Routes>

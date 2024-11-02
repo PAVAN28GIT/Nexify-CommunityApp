@@ -29,7 +29,7 @@ function Hero() {
         </h2>
 
         <div className="flex text-white items-center justify-center">
-          <Link to="/sign-in">
+          <Link to="/user/:userId">
             <button className="transition group flex items-center justify-center bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500 p-[1.5px] rounded-sm hover:shadow-2xl hover:shadow-purple-500">
               <div className="px-10 py-2 items-center justify-center rounded-sm text-lg font-SpaceGrotesk bg-zinc-900 transition duration-300 ease-in-out group-hover:bg-gradient-to-b group-hover:from-gray-700 group-hover:to-gray-900">
                 Get Started
